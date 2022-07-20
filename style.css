@@ -6,7 +6,7 @@ body {
     font-family: 'Poppins', sans-serif; 
 } 
 main { 
-    padding: 3% 5% 0 5%; 
+    padding: 3% 5% 10%; 
 } 
  
 /* ----top banner styles---- */ 
@@ -17,7 +17,7 @@ main {
     align-items: center; 
     height: 550px; 
     border-radius: 30px; 
-    padding: 20px 50px 0 50px; 
+    padding: 20px 50px 0 80px; 
 } 
  
 .banner-text { 
@@ -26,7 +26,7 @@ main {
 } 
  
 .banner-text h1 { 
-    font-size: 60px; 
+    font-size:70px; 
     line-height: 70px; 
     color: #FFFFFF; 
     margin: 0 0 10px 0; 
@@ -36,7 +36,7 @@ main {
 } 
  
 .banner-text p { 
-    font-size: 16px; 
+    font-size: 25px; 
     line-height: 26px; 
     font-weight: 200; 
     color: #FFFFFF; 
@@ -82,7 +82,21 @@ main {
     justify-content: center; 
     gap: 30px; 
     
+    
 } 
+.side{
+    width: 312px; 
+    height: 312px; 
+    background: #054082; 
+    border-radius: 10px; 
+ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 30px; 
+    margin-top: 150px;
+}
  
 .manu-btn { 
     width: 252px; 
@@ -112,21 +126,32 @@ main {
 .active-link { 
     color: #FFFFFF !important; 
 } 
- 
+
+
 /* ----blogs style-----  */ 
  
 .blogs { 
     display: grid; 
     grid-template-columns: repeat(3, 1fr); 
-    grid-column-gap: 20px; 
-    grid-row-gap: 20px; 
+    grid-column-gap:150px; 
+    grid-row-gap:500 px;
+    margin-left:500px ;
+   grid-gap: 50px;
+   width: 80%;
+   
+
+   
+    
+    
+        
 } 
  
 .blog { 
-    width: 279px; 
+    width: 289px; 
     height: 362px; 
     border: 1px solid #dbdbdb; 
     border-radius: 11px; 
+    
 } 
  
 .blog img { 
@@ -235,7 +260,7 @@ footer ul:nth-child(4) li a {
 .index-footer ul:nth-child(4) li a { 
     color: #054082; 
 } 
- 
+
 /* ------------------------------- 
     style for match.html file  
    ------------------------------- */ 
@@ -245,7 +270,7 @@ footer ul:nth-child(4) li a {
     background: black; 
     display: flex;
 
-Tuba, [7/21/2022 1:42 AM]
+
 justify-content: space-between; 
     align-items: center; 
     height: 550px; 
@@ -285,6 +310,7 @@ justify-content: space-between;
     grid-template-columns: repeat(3, 1fr); 
     grid-column-gap: 20px; 
     grid-row-gap: 20px; 
+    width: 80%;
 } 
  
 .match { 
@@ -298,6 +324,7 @@ justify-content: space-between;
 .team { 
     display: flex; 
     gap: 20px; 
+
 } 
  
 .match img { 
@@ -335,7 +362,8 @@ justify-content: space-between;
    Responsive design for X-Small device(index.html)  
 ------------------------------------------ */ 
 @media screen and (max-width:576px) { 
-    .top-banner { 
+
+    .top-banner {
         flex-direction: column; 
     } 
  
@@ -418,7 +446,6 @@ justify-content: space-between;
         color: #054082; 
     } 
 }
-Tuba, [7/21/2022 2:11 AM]
 @media screen and (max-width:576px) { 
     .top-banner { 
         flex-direction: column; 
@@ -620,12 +647,6 @@ Tuba, [7/21/2022 2:11 AM]
     } 
  
     .ball {
-
-Tuba, [7/21/2022 2:11 AM]
-positi
-
-Tuba, [7/21/2022 2:11 AM]
-on: absolute; 
         width: 100px; 
         opacity: .84; 
         top: 120px; 
@@ -728,12 +749,13 @@ on: absolute;
     .matchs { 
         grid-template-columns: repeat(1, 1fr); 
         justify-items: center; 
+        
     } 
  
     .match-footer ul:nth-child(4) li a { 
         font-size: 15px; 
         line-height: 30px; 
-        color: #084561; 
+        color: rgb(43, 43, 50); 
     } 
 } 
  
@@ -828,7 +850,7 @@ on: absolute;
 @media screen and (min-width:769px) and (max-width: 992px) { 
     .t
 
-Tuba, [7/21/2022 2:11 AM]
+
 op-banner-match { 
         height: 398px; 
         padding: 20px 20px 0 50px; 
